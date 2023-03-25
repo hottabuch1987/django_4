@@ -3,7 +3,7 @@ import httpx
 
 
 async def get_link(query: str, current_page:int):
-    headers = {'Authorization': '5ddba27f0f1454a8314037f756e2b817bfd8eb73cf32c3f6ef77a56ed89faaa8'}
+    headers = {'Authorization': '***************************'}
     params = {'query': query, 'par_page': 1, 'page': current_page}
     url = 'https://api.pexels.com/v1/search'
 
